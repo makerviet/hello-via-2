@@ -15,7 +15,7 @@ from traffic_sign_detection import *
 
 # Initalize traffic sign classifier
 traffic_sign_model = cv2.dnn.readNetFromONNX(
-    "traffic_sign_classifier_lenet_v2.onnx")
+    "traffic_sign_classifier_lenet_v3.onnx")
 
 # Global queue to save current image
 # We need to run the sign classification model in a separate process
